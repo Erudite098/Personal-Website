@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+
+    <!--Navbar-->
+    <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">KRZN</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+ 
+    <!--Header-->
+    <header>
+        <div class="container">
+           <div class="header-text">
+            <h4 class="subtext">Hello! I am, </h4><br>
+            <h1 class="title-text">KERZANIA MACALDE</h1><br>
+            <span class="normal-text">a 3rd-year Computer Science student at the University of Cabuyao. 
+                I enjoy exploring different aspects of technology, from game development to web programming.
+                With a focus on learning and improving, I am always looking for ways to apply my knowledge and 
+                skills to make a positive impact through my projects.
+            </span><br>
+        </div>    
+        </div>        
+    </header>
+
+    <!--About-->
+    <div class="container">
+        <section class="about-section" id="about">
+            <div class="container">
+                <span class="subtext">About <span class="text-color">Me</span></span>  
+                <br><br>
+                <span class="normal-text">Hi, I’m Kerzania, a 3rd-year Computer Science student at the University of Cabuyao. My passion lies in game development and innovative technology. Currently, I’m working on a thesis that focuses on 3D games, using Unity and Blender to create impactful experiences. I’m also developing a game to address the learning crisis in the Philippines, specifically targeting science and math education.   
+                    I’m a visual learner and use Linux Mint for my development work, where I prefer to navigate using the terminal. My projects include developing a payroll system, creating web applications with HTML, CSS, jQuery, PHP, and MySQL, and exploring sustainable tourism with a focus on Batan Island.                   
+                    In addition to my technical pursuits, I’m interested in learning PHP and considering the Laravel framework for my future projects. I also enjoy simplifying complex concepts and am currently following the Organic Chemistry Tutor channel for additional learning.                   
+                    When I’m not coding, I’m likely working on my personal website or exploring new ways to improve my skills and knowledge.</span>  
+            </div>
+            
+        </section>
+    </div>
+   
+    <!--Skills-->
+    <div class="container">
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h4 class="subtext">My <span class="text-color2">Skills</span></h4><br>
+            <div class="form-row">
+                <h4>Programming Languages</h4>
+                <h4>Soft Skills</h4>
+                <h4>Tools</h4>
+            </div>
+            
+            
+        </div>
+    </section>        
+    </div>
+
+    <!--Contact-->
+    <div class="container">
+    <section class="contact-section" id="contact"> 
+        <div class="container">
+          <h4 class="subtext">Contact <span class="text-color">Me!</span></h4>
+          <br><br><br>
+          <form action="">
+            <div class="form-row">
+              <input type="text" id="name" placeholder="Full Name" required>
+              <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit" onclick="validateForm()">
+          </form>
+        </div>
+    </section>        
+    </div>
+     
+    <br><br><br><br>
+</body>
+</html>
